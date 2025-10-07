@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Garantias — Smart Aluguel e Vendas</title>
+  <meta name="description" content="Conheça as garantias e compromissos da Smart Aluguel e Vendas para proprietários e inquilinos.">
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--glass:rgba(255,255,255,0.04)}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:linear-gradient(180deg,var(--bg),#071022);color:#e6eef6}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:28px}
+    .card{width:100%;max-width:760px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:22px;box-shadow:0 8px 40px rgba(2,6,23,0.6);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,0.03)}
+    header{display:flex;gap:14px;align-items:center}
+    .logo{width:56px;height:56px;background:linear-gradient(135deg,var(--accent),#0ea5a6);border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#042f33}
+    h1{font-size:20px;margin:0}
+    p.lead{margin:6px 0 16px;color:var(--muted)}
+    ul.guarantees{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    li.g{background:var(--glass);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);display:flex;gap:12px;align-items:flex-start}
+    svg.icon{width:34px;height:34px;flex-shrink:0}
+    .g h3{margin:0;font-size:15px}
+    .g p{margin:6px 0 0;color:var(--muted);font-size:13px;line-height:1.3}
+    .actions{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+    .btn{background:linear-gradient(90deg,var(--accent),#0891b2);color:#052226;padding:10px 14px;border-radius:10px;border:none;font-weight:600;cursor:pointer}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    .small{font-size:13px;color:var(--muted);margin-top:12px}
+    footer{margin-top:14px;font-size:13px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+    @media (max-width:420px){.card{padding:16px}.logo{width:48px;height:48px}.g p{font-size:12px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <article class="card" role="article">
+      <header>
+        <div class="logo" aria-hidden="true">SA</div>
+        <div>
+          <h1>Garantias e compromissos — Smart Aluguel e Vendas</h1>
+          <p class="lead">Nossa prioridade é proteger seu imóvel e garantir tranquilidade para proprietários e inquilinos. Veja como trabalhamos.</p>
+        </div>
+      </header>
+
+      <ul class="guarantees" aria-label="Lista de garantias">
+        <li class="g">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2L20 7v6c0 5-4 9-8 9s-8-4-8-9V7l8-5z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <h3>Triagem rigorosa de inquilinos</h3>
+            <p>Realizamos análise documental e checagem de referências para reduzir risco de inadimplência e garantir que seu imóvel seja bem cuidado.</p>
+          </div>
+        </li>
+
+        <li class="g">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 12h18" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          <div>
+            <h3>Contrato claro e seguro</h3>
+            <p>Contratos transparentes com cláusulas que protegem locador e locatário — preparados por profissionais experientes e seguindo a legislação vigente.</p>
+          </div>
+        </li>
+
+        <li class="g">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 8v8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M8 12h8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          <div>
+            <h3>Vistorias detalhadas</h3>
+            <p>Vistoria de entrada e saída com relatório fotográfico — protegendo o estado do seu imóvel em todas as etapas.</p>
+          </div>
+        </li>
+
+        <li class="g">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          <div>
+            <h3>Gestão de manutenção</h3>
+            <p>Rede de prestadores qualificados e autorização de serviços com orçamento prévio — priorizando transparência e custo-benefício.</p>
+          </div>
+        </li>
+
+        <li class="g">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2v4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M12 18v4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          <div>
+            <h3>Comunicação e transparência</h3>
+            <p>Relatórios periódicos e comunicação direta com o proprietário — você acompanha tudo passo a passo.</p>
+          </div>
+        </li>
+
+        <li class="g">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 3l2 5h5l-4 3 1 5-4-3-4 3 1-5-4-3h5l2-5z" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <h3>Atendimento humano + tecnologia</h3>
+            <p>Aluguel digital e suporte humano: combinamos agilidade com cuidado pessoal para resolver tudo com eficiência.</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="actions">
+        <button class="btn" id="contactBtn">Entrar em contato</button>
+        <button class="btn ghost" id="copyBtn">Copiar resumo</button>
+      </div>
+
+      <p class="small">Ao clicar em "Entrar em contato" você abrirá seu app de e-mail para falar conosco. Ou copie o resumo e cole em mensagens.</p>
+
+      <footer>
+        <div>Smart Aluguel e Vendas • Chapecó, SC</div>
+        <div>📞 (xx) xxxxx-xxxx</div>
+      </footer>
+    </article>
+  </div>
+
+  <script>
+    const contactBtn = document.getElementById('contactBtn');
+    const copyBtn = document.getElementById('copyBtn');
+    const summary = `Garantias Smart Aluguel e Vendas:\n- Triagem rigorosa de inquilinos\n- Contrato claro e seguro\n- Vistorias com fotos\n- Gestão de manutenção com fornecedores qualificados\n- Relatórios e comunicação transparente\n- Atendimento humano aliado à tecnologia\n\nFale conosco: (xx) xxxxx-xxxx`;
+
+    contactBtn.addEventListener('click', ()=>{
+      const subject = encodeURIComponent('Contato — Garantias / Smart Aluguel e Vendas');
+      const body = encodeURIComponent('Olá, gostaria de mais informações sobre as garantias e a administração do meu imóvel.\n\n--');
+      window.location.href = `mailto:contato@smartaluguel.com.br?subject=${subject}&body=${body}`;
+    });
+
+    copyBtn.addEventListener('click', async ()=>{
+      try{
+        await navigator.clipboard.writeText(summary);
+        copyBtn.textContent = 'Copiado!';
+        setTimeout(()=> copyBtn.textContent = 'Copiar resumo',2000);
+      }catch(e){
+        alert('Não foi possível copiar automaticamente. Selecione o texto e copie manualmente.');
+      }
+    });
+  </script>
+</body>
+</html>
